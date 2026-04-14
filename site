@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpticaUFG</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+<section class="bg-purple-900 text-white p-8">
+
+<!-- Header -->
+<header class="bg-purple-900 text-white p-6 shadow-lg">
+<h1 class="text-3xl font-bold">OpticaUFG</h1>
+<p class="text-sm">Divulgação científica da área de Óptica e Fotônica</p>
+</header>
+
+<!-- Portfólio -->
+<section class="p-8">
+<h2 class="text-2xl font-bold text-purple-900 mb-4">Nosso Produto</h2>
+
+<div class="grid md:grid-cols-2 gap-6 items-center">
+<img src="https://via.placeholder.com/500x300" alt="Robô Pingado" class="rounded-2xl shadow">
+
+<p>
+A <strong>OpticaUFG</strong> é um projeto de extensão do Instituto de Física, da UFG.
+Nosso principal objetivo é realizar divulgação científica no campo da Óptica e Fotônica, de uma maneira simples e acessível. 
+</p>
+</div>
+</section>
+
+<!-- Tecnologias -->
+<section class="p-8">
+<h2 class="text-2xl font-bold text-purple-900 mb-6">Tecnologias do Robô</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="bg-purple-50 p-6 rounded-2xl shadow text-black">
+<h3 class="font-bold mb-2">Sensores Inteligentes</h3>
+<p>O robô utiliza sensores para monitorar condições do ambiente.</p>
+</div>
+
+<div class="bg-purple-50 p-6 rounded-2xl shadow text-black">
+<h3 class="font-bold mb-2">Automação</h3>
+<p>Opera de forma autônoma, reduzindo intervenção humana.</p>
+</div>
+
+<div class="bg-purple-50 p-6 rounded-2xl shadow text-black">
+<h3 class="font-bold mb-2">Controle Programado</h3>
+<p>Ajustes conforme o tipo de grão e clima.</p>
+</div>
+
+</div>
+</section>
+
+<!-- Benefícios -->
+<section class="bg-purple-100 p-8">
+<h2 class="text-2xl font-bold text-purple-900 mb-6">Benefícios</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="bg-purple-50 p-6 rounded-2xl shadow text-black">
+<h3 class="font-bold mb-2">Maior Qualidade</h3>
+<p>Secagem uniforme e melhor produto final.</p>
+</div>
+
+<div class="bg-purple-50 p-6 rounded-2xl shadow text-black">
+<h3 class="font-bold mb-2">Redução de Custos</h3>
+<p>Menos necessidade de mão de obra.</p>
+</div>
+
+<div class="bg-purple-50 p-6 rounded-2xl shadow text-black">
+<h3 class="font-bold mb-2">Eficiência</h3>
+<p>Otimiza tempo e produção.</p>
+</div>
+
+</div>
+</section>
+
+<!-- Equipe -->
+<section class="bg-purple-100 p-8">
+<h2 class="text-2xl font-bold text-black mb-6">Nossa Equipe</h2>
+
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+<script>
+const equipe = [
+{ nome: "Luiz Felipe Silva", foto: "https://raw.githubusercontent.com/Jacupingado/pingado/b13ed1c6f6d49a7735f8af72184cbb8112d61063/Luiz Felipe.jpeg" },
+{ nome: "Wilton", foto: "" }
+];
+
+document.write(equipe.map(pessoa => `
+<div class="bg-purple-50 p-4 rounded-2xl shadow text-center">
+<img src="${pessoa.foto}" class="rounded-full mx-auto mb-3 w-32 h-32 object-cover">
+<p class="font-semibold text-purple-900">${pessoa.nome}</p>
+</div>
+`).join(''));
+</script>
+
+</div>
+</section>
+
+<!-- Princípios -->
+<section class="p-8">
+<h2 class="text-2xl font-bold text-purple-900">Princípios e Valores</h2>
+<ul class="list-disc ml-6 space-y-2">
+<li>Inovação tecnológica</li>
+<li>Sustentabilidade</li>
+<li>Eficiência agrícola</li>
+<li>Qualidade</li>
+<li>Trabalho em equipe</li>
+<li>Data-Driven</li>
+</ul>
+</section>
+
+<!-- Contato -->
+<section class="bg-purple-800 text-white p-8">
+<h2 class="text-2xl font-bold mb-4">Contato</h2>
+<p>Email: opticaufg@gmail.com</p>
+<p>Telefone: (62) 99999-9999</p>
+<p>Instagram: @opticaufg</p>
+<p>LinkedIn: OpticaUFG</p>
+</section>
+
+<!-- Footer -->
+<footer class="text-center p-4 text-sm text-gray-500">
+© 2026 Pingado - Todos os direitos reservados
+</footer>
+
+</section>
+
+</body>
+</html>
